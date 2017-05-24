@@ -1,0 +1,27 @@
+{
+  "name": "volantus/msp-broker",
+  "description": "Single point of communication control with the real time hardware flight controller over MSP protocol",
+  "type": "project",
+  "license": "GNUv3",
+  "authors": [
+    {
+      "name": "Marius Meißner",
+      "email": "info@marius-meissner.net"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "vlucas/phpdotenv": "^2.4",
+    "cboden/ratchet": "^0.3.6",
+    "phpunit/phpunit": "^5.7",
+    "symfony/console": "^3.2",
+    "volantus/flight-base": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Volantus\\MspBroker\\": "",
+      "Volantus\\MspBroker\\Src\\": "src",
+      "Volantus\\MspBroker\\Tests\\": "tests"
+    }
+  }
+}
