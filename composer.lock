@@ -2740,16 +2740,16 @@
         },
         {
             "name": "volantus/msp-protocol",
-            "version": "1.0.3",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Volantus/msp-protocol.git",
-                "reference": "a8adac3849dca46ab3f41927f5e4c921b0f84244"
+                "reference": "a28dd8aef55f8e5a9e9a5c6c7959837f22c34fc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Volantus/msp-protocol/zipball/a8adac3849dca46ab3f41927f5e4c921b0f84244",
-                "reference": "a8adac3849dca46ab3f41927f5e4c921b0f84244",
+                "url": "https://api.github.com/repos/Volantus/msp-protocol/zipball/a28dd8aef55f8e5a9e9a5c6c7959837f22c34fc8",
+                "reference": "a28dd8aef55f8e5a9e9a5c6c7959837f22c34fc8",
                 "shasum": ""
             },
             "require": {
@@ -2774,7 +2774,7 @@
                 }
             ],
             "description": "PHP implementation of the SMP protocol + serial communication adapter",
-            "time": "2017-05-27 14:40:45"
+            "time": "2017-05-27 20:16:03"
         },
         {
             "name": "webmozart/assert",

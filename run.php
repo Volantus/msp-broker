@@ -8,5 +8,5 @@ $dotEnv = new Dotenv(__DIR__);
 $dotEnv->load();
 
 $application = new Application();
-$application->add(new \Volante\SmpBroker\Src\CLI\BrokerCommand());
+$application->add(new \Volantus\MspBroker\Src\CLI\BrokerCommand());
 $application->run();
