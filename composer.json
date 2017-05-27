@@ -15,7 +15,7 @@
     "cboden/ratchet": "^0.3.6",
     "phpunit/phpunit": "^5.7",
     "symfony/console": "^3.2",
-    "volantus/flight-base": "^1.0"
+    "volantus/flight-base": "^1.2.1"
   },
   "autoload": {
     "psr-4": {
